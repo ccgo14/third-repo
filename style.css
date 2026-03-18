@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #111;
+  color: #0f0; /* green highlight */
+}
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+.hero-image img {
+  max-width: 300px;
+  height: auto;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0f0;
+  color: #111;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: #fff;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px; /* softer corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* subtle shadow */
+}
+
+/* Skills */
+.skills {
+  padding: 50px;
+  background: #eee;
+  text-align: center;
+}
+.skill-icons img {
+  width: 60px;
+  margin: 10px;
+}
